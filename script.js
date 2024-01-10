@@ -193,7 +193,7 @@ function genererBoutonMode(){
        const boutonInput = document.getElementById("colorModeInput");
        const boutonLabel = document.getElementById("colorModeLabel");
        const bodyMode=document.querySelector("body");
-       boutonLabel.innerText="light mode";
+       boutonLabel.innerText="dark mode";
        boutonInput.addEventListener("change", function () {
            if (this.checked){
               bodyMode.className="lightMode";
