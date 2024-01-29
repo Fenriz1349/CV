@@ -6,12 +6,11 @@
 }
 .lightMode{
     color:black;
-    background-image: url(images/lightBckground.svg);
+    background: white;
 }
 .darkMode{
     color:whitesmoke;
-    background: rgb(0,0,0);
-    background-image: url(images/darkBckground.svg);
+    background: rgb(12,12,12);
 }
 header{
     margin-left: 5px;
@@ -42,9 +41,25 @@ header{
     overflow-y: scroll;
 }
 .accordion{
-    margin-left: 20px;
+  margin-left: 20px;
     width: 80%;
 }
+.accordion-body { 
+    color:whitesmoke;
+    background: rgb(12,12,12);
+    } 
+.accordion-item {
+    color:whitesmoke;
+    background: rgb(0,0,139);
+}
+.accordion-button {
+    color:whitesmoke;
+    background: rgb(12,12,12);
+}
+.accordion-button:not(.collapsed) {
+    color:whitesmoke;
+    background: rgb(12,12,12);
+  }
 .logo{
     width : 60px;
     height : 60px;
